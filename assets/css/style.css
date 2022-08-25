@@ -12,30 +12,66 @@ header {
     color: #fff;
     border-bottom: 8px #cf511;
     background-color: rgb(28, 98, 136);
-    
             
 }
 
 .studio {
-    width: 11%;
+    width: 20%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+
+#about-me {
+    text-align: center;
+    text: bold;
+    
 }
 
 #my-work {
     border-top: 8px;
     border-color: rgb(28, 98, 136);
-
+    text-align: center;
 
 }
 
+#contact-me {
+    text-align: center;
+    text: bold;
+    border-top: #cf5111;
+    border-width: 15px;
+}
+
 .taco {
+    display: flex; 
+    flex-direction: row;
+}
+
+.taco h1 {
     display: flex; 
     flex-direction: column;
 }
 
 .seo {
-    width: 10%;
-    border-color:rgb(28, 98, 136);
-    border-right: 3px;
+    position: absolute;
+}
+ 
+div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.seo img {
+    width: 38%;
+    margin-left: auto;  
+    margin-right: auto;
+    /* margin-top: auto; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    display: block;
 }
 
 
@@ -47,25 +83,51 @@ article h2 {
     border-bottom: 3px solid rgb(28, 98, 136);
   }
 
+.box {
+    margin-bottom: 30px;
+    padding: 50px;
+    height: 160px;
+    background-color: rgb(28, 98, 136);
+    color: #ffffff;
+    width: 70%; 
+    margin-left: 11%;   
+    /* margin-right: 20px;  */
+}
+
 
 .phone {
     display: flex;
     flex-direction: row;
+    
 }
 
-h3{
-
-}
 
 .float-left {
     float: left;
     margin-left: 25px;
-    width: 70%;
+    width: 40%;
+
+}
+
+#bigbox {
+    margin-bottom: 30px;
+    padding: 50px;
+    height: 375px;
+    background-color: rgb(28, 98, 136);
+    color: #ffffff;
+    width: 70%; 
+    margin-left: 11%;  
+    display: flex;
 
 }
 
 h2 {
     color: rgb(28, 98, 136)
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -74,15 +136,7 @@ nav a {
     font-weight: bold;
    }
 
-/* add a different color here */
-nav a:hover {
-    color: #cf5111;
-  }
-  
-
-
-
-  footer {
+footer {
     display: flex;
     justify-content: center;
     padding: 2%;
