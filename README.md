@@ -12,5 +12,8 @@ Installation: This application can be accessed by following the below link
 https://nelson92.github.io/challenge-02-code/
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-[alt text](assets/images/screenshot_1.png)
+
+    ![alt text](assets/images/screenshot_1.png)
+    
+
     
