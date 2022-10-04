@@ -26,7 +26,7 @@ header {
 
 #about-me {
     text-align: center;
-    text: bold;
+    font-weight: bold;
 }
 
 #my-work {
@@ -37,7 +37,7 @@ header {
 
 #contact-me {
     text-align: center;
-    text: bold;
+    font-weight: bold;
     border-top: #cf5111;
     border-width: 15px;
 }
